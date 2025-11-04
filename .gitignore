@@ -1,0 +1,85 @@
+# Django
+*.pyc
+__pycache__/
+*.sqlite3
+*.log
+*.pot
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Media and static files
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Django secret key
+secret_key.txt
+
+# Temporary files
+tmp/
+temp/
+
+# Node.js (前端项目)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vue.js
+dist/
+.local
+.eslintcache
+
+# 配置文件（根据实际情况调整）
+conf_client.ini
