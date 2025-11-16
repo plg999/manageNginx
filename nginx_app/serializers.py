@@ -1,10 +1,6 @@
 from rest_framework import serializers
 from .models import ClientInfo, NginxConfigFile, BackendServerInfo
 
-class ClientInfoSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = ClientInfo
-        fields = '__all__'
 
 class NginxConfigFileSerializer(serializers.ModelSerializer):
     class Meta:

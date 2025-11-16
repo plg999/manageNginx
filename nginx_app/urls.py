@@ -2,12 +2,10 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # 客户端管理
-    path('client/list/', views.get_client_ip_list, name='client-list'),
-    path('client/info/', views.receive_client_info, name='client-info'),
 
     # 配置同步
-    path('sync/', views.receive_nginx_file_path_and_content, name='sync-configs'),
+    # path('sync/', views.receive_nginx_file_path_and_content, name='sync-configs'),
+    #连接测试
 
     # 配置操作
     path('create/', views.create_nginx_config, name='create-config'),
